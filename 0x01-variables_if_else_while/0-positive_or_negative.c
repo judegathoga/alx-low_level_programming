@@ -4,9 +4,11 @@
 /* more headers goes there */
 
 /**
- * main - Assigns a random number to the variable n 
+ * main - Assigns a random number to the variable n
  * each time it is executed and indicates whether
  * n is positive or negative
+ *
+ * Return: 0 on successful exit of program
  */
 int main(void)
 {
