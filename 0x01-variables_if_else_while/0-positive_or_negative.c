@@ -3,7 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - Assigns a random number to the variable n 
+ * each time it is executed and indicates whether
+ * n is positive or negative
+ */
 int main(void)
 {
 	int n;
