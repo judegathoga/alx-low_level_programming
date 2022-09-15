@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	long unsigned int i, curr = 1, next = 2;
+	long i, curr = 1, next = 2;
 
 	for (i = 1; i <= 25; i++)
 	{
 		printf("%lu, %lu", curr, next);
-		curr = curr +next;
+		curr = curr + next;
 		next = curr + next;
 
 		if (i != 25)
