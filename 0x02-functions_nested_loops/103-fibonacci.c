@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	unsigned curr = 1, next = 2;
+	unsigned int curr = 1, next = 2;
 	unsigned long sum;
 
 	while (next <= 4000000)
 	{
-		if (curr % 2 ==0)
+		if (curr % 2 == 0)
 			sum += curr;
 		if (next % 2 == 0)
 			sum += next;
