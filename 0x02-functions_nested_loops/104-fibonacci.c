@@ -11,7 +11,7 @@ int main(void)
 	unsigned long int curr = 1, next = 2;
 	int i;
 
-	for (i = 1; i <= 98; i++)
+	for (i = 1; i <= 49; i++)
 	{
 		if (i != 1)
 			printf(", ");
